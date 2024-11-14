@@ -1,3 +1,4 @@
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31314.256
@@ -119,8 +120,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowPolyGirlModuleRules", "I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{1CCEC849-CC72-4C59-8C36-2F7C38706D4C}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\Epic Games\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natstepfilter = ..\..\Epic Games\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natstepfilter
 		..\..\Epic Games\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natvis = ..\..\Epic Games\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natvis
+		..\..\Epic Games\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natstepfilter = ..\..\Epic Games\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natstepfilter
 	EndProjectSection
 EndProject
 Global
@@ -135,6 +136,10 @@ Global
 		Development|Win64 = Development|Win64
 		Shipping|Android = Shipping|Android
 		Shipping|Win64 = Shipping|Win64
+	EndGlobalSection
+	# UnrealVS Section
+	GlobalSection(ddbf523f-7eb6-4887-bd51-85a714ff87eb) = preSolution
+		AvailablePlatforms=Win64;Android
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A7246EE1-B137-3DB4-927A-58764D8D58A8}.DebugGame Editor|Android.ActiveCfg = BuiltWithUnrealBuildTool|Win64
@@ -1110,13 +1115,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0BFBE63A-B98A-3411-8EEB-8918FEC737B3} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
-		{57713676-9DBE-331C-AD10-26632AC9EE0C} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
-		{7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
 		{A7246EE1-B137-3DB4-927A-58764D8D58A8} = {233774A8-CC9D-3FA9-86D1-90573E92B704}
 		{75D75641-1F8D-3510-A475-CB4F4EE524C9} = {DE1F8B53-6C02-3C13-9101-A7C8D96F3FF6}
 		{C887AE02-9419-3204-9E34-A39D1CB33835} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
 		{489A30B2-6799-3398-9751-DE8168677458} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{0BFBE63A-B98A-3411-8EEB-8918FEC737B3} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{57713676-9DBE-331C-AD10-26632AC9EE0C} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
 		{23840F3D-EB41-3FA7-AD09-D756B8749E76} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
 		{BE6BBB29-A0D3-33D3-92D0-2D5360128067} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
 		{6EA0509E-51FC-39E9-A718-D839C5D46DDB} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
@@ -1162,11 +1167,5 @@ Global
 		{06C308F3-9901-3B7E-AFA5-F1EDE7ABE288} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
 		{A1CCE68F-95D5-3E73-9903-62FBE0899CBF} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
 		{7B8FCD13-8DBA-35C7-83F2-BCBE4F2C225F} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EF5A5F5D-3DAC-4B3E-BD54-ECC641422BA1}
-	EndGlobalSection
-	GlobalSection(ddbf523f-7eb6-4887-bd51-85a714ff87eb) = preSolution
-		AvailablePlatforms = Win64;Android
 	EndGlobalSection
 EndGlobal
